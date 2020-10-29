@@ -1,0 +1,34 @@
+.image-resolution {
+    width: 100%;
+    height: 230px;
+}
+.post-news-card {
+    overflow: hidden;
+}
+.post-news-card:hover img {
+    transform: scale(1.2);
+    transition: all .3s linear;
+}
+.tabs-custom-style {
+    border-bottom: 2px solid #343a40 !important;
+}
+.tabs-custom-style .nav-link {
+    background-color: #343a40 !important;
+}
+.tabs-custom-style .nav-link {
+    border: none;
+    color: white !important;
+    text-decoration: none;
+}
+.card-custom-style {
+    border: none !important;
+}
+.card-custom-style .card-body {
+    padding: 0px 1.25rem;
+}
+.card-wrapper-custom {
+    padding: 0 !important;
+}
+.card-wrapper-custom:hover {
+    box-shadow: 1;
+}
