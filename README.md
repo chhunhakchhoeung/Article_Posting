@@ -13,7 +13,7 @@ Please check the official laravel installation guide for server requirements bef
 
 Clone the repository
 
-    git clone https://github.com/CheaChan/article_posting.git
+    git clone https://github.com/chhunhakchhoeung/Article_Posting.git
 
 Switch to the repo folder
 
@@ -51,7 +51,7 @@ You can now access the server at http://localhost:8000
 
 **TL;DR command list**
 
-    git clone https://github.com/CheaChan/article_posting.git
+    git clone https://github.com/chhunhakchhoeung/Article_Posting.git
     cd article_posting
     composer install
     cp .env.example .env
