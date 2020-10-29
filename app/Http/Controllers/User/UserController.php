@@ -39,6 +39,12 @@ class UserController extends Controller
      */
     public function store(Request $request, $id = 0)
     {
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required',
+            'password' => 'required',
+        ]);
+        
         if($id == 0):
             $data = [
                 'name' => $request->name,
